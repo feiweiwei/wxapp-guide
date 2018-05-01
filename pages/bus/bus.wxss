@@ -1,0 +1,113 @@
+/* pages/bus/bus.wxss */
+
+.bus-box {
+  background-color: white;
+  width: 750rpx;
+  margin-top: 0rpx;
+}
+
+.bus-info-box {
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  height: 90rpx;
+  margin-top: 0rpx;
+  background: #fff;
+  border-bottom: #eee solid 1px;
+}
+
+.bus-info-box .bus-info-stop-box {
+  display: flex;
+  flex-direction: column;
+  width: 675rpx;
+  margin-top: 0rpx;
+}
+
+.bus-info-stop-box .stop-name-text {
+  height: 37rpx;
+  padding-left: 21rpx;
+  padding-top: 12rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Light;
+  color: rgba(0, 0, 0, 1);
+}
+
+.bus-info-stop-box .stop-time-box {
+  display: flex;
+  flex-direction: row;
+  height: 53rpx;
+  width: 675rpx;
+}
+
+.stop-time-box .stop-time-first-text {
+  width: 120rpx;
+  padding-left: 20rpx;
+  font-size: 22rpx;
+  font-family: PingFangSC-Light;
+  color: rgba(246, 180, 3, 1);
+}
+
+.stop-time-box .stop-time-last-text {
+  width: 120rpx;
+  font-size: 22rpx;
+  font-family: PingFangSC-Light;
+  color: rgba(253, 89, 51, 1);
+}
+
+.bus-info-box .exchange-image {
+  width: 38rpx;
+  height: 38rpx;
+  margin-right: 35rpx;
+  margin-top: 26rpx;
+}
+
+.bus-actual-info {
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  height: 90rpx;
+  align-items: center;
+  border-bottom: #eee solid 1px;
+}
+
+.bus-actual-info .bus-actual-info-time {
+  width: 640rpx;
+  padding-left: 20rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Light;
+  color: rgba(0, 0, 0, 1);
+}
+
+.bus-actual-info .bus-actual-info-stops {
+  font-size: 28rpx;
+  font-family: PingFangSC-Light;
+  color: rgba(255, 106, 6, 1);
+}
+
+.stop-list-item {
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  height: 90rpx;
+  border-bottom: #eee solid 1px;
+  align-items: center;
+}
+
+.stop-list-item .stop-item-image {
+  width: 22rpx;
+  height: 90rpx;
+  margin-left: 41rpx;
+}
+
+.stop-list-item .stop-item-name {
+  width: 580rpx;
+  padding-left: 20rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Light;
+  color: rgba(138, 135, 134, 1);
+}
+
+.stop-list-item .stop-item-favor-image {
+  width: 40rpx;
+  height: 40rpx;
+}

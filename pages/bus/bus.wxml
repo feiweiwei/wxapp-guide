@@ -1,0 +1,23 @@
+<!--pages/bus/bus.wxml-->
+<view class="bus-box">
+  <view class="bus-info-box">
+    <view class="bus-info-stop-box">
+      <view class="stop-name-text">施新路施湾二路 —— 金桥地铁站</view>
+      <view class="stop-time-box">
+        <view class="stop-time-first-text">首：04:15</view>
+        <view class="stop-time-last-text">末：19:30</view>
+      </view>
+    </view>
+    <image class="exchange-image" src="../../images/diaozhuan@2x.png"></image>
+  </view>
+
+  <view class="bus-actual-info">
+    <view class="bus-actual-info-time">沪A-01302D还有10分钟到站</view>
+    <view class="bus-actual-info-stops">5站</view>
+  </view>
+  <view class="stop-list-item" wx:for="{{stopList}}">
+    <image class="stop-item-image" src="../../images/zhou@2x.png"></image>
+    <view class="stop-item-name">{{item.stopId}}{{item.stopName}}</view>
+    <image class="stop-item-favor-image" src="../../images/shoucang@2x.png"></image>
+  </view>
+</view>

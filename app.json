@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/bus/bus",
     "pages/flex/flex",
     "pages/promise/promise"
   ],
@@ -15,6 +16,10 @@
     "backgroundColor": "#f8f9fb",
     "borderStyle": "white",
     "list": [
+      {
+        "pagePath": "pages/bus/bus",
+        "text": "bus布局"
+      },
       {
         "pagePath": "pages/flex/flex",
         "text": "flex布局"
