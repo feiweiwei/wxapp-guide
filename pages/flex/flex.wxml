@@ -1,0 +1,112 @@
+<view>flex-direction : row</view>
+<view class="box box-1">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item">4</view>
+</view>
+
+<view>flex-wrap: nowrap（默认）不换行。</view>
+<view class="box box-2">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item">4</view>
+  <view class="box-item">5</view>
+  <view class="box-item">6</view>
+  <view class="box-item">7</view>
+</view>
+<view>flex-wrap: wrap 换行，第一行在上方。</view>
+<view class="box box-3">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item">4</view>
+  <view class="box-item">5</view>
+  <view class="box-item">6</view>
+  <view class="box-item">7</view>
+</view>
+<view>flex-wrap: wrap-reverse 换行，第一行在下方。</view>
+<view class="box box-4">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item">4</view>
+  <view class="box-item">5</view>
+  <view class="box-item">6</view>
+  <view class="box-item">7</view>
+</view>
+
+
+<view>justify-content: flex-start（默认值）左对齐</view>
+<view class="box box-6">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item">4</view>
+</view>
+<view>justify-content: flex-end 右对齐</view>
+<view class="box box-7">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item">4</view>
+</view>
+<view>justify-content: center 居中</view>
+<view class="box box-8">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item">4</view>
+</view>
+<view>justify-content: space-between 两端对齐，项目之间的间隔都相等。</view>
+<view class="box box-9">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item">4</view>
+</view>
+<view>justify-content: space-around 每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。</view>
+<view class="box box-10">
+  <view class="box-item">1</view>
+  <view class="box-item">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item">4</view>
+</view>
+
+
+<view>align-items: flex-start 交叉轴的起点对齐。</view>
+<view class="box box-11">
+  <view class="box-item">1</view>
+  <view class="box-item item-tall">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item item-tall">4</view>
+</view>
+<view>align-items: flex-end 交叉轴的终点对齐。</view>
+<view class="box box-12">
+  <view class="box-item">1</view>
+  <view class="box-item item-tall">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item item-tall">4</view>
+</view>
+<view>align-items: center 交叉轴的中点对齐。</view>
+<view class="box box-13">
+  <view class="box-item">1</view>
+  <view class="box-item item-tall">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item item-tall">4</view>
+</view>
+<view>align-items: baseline 项目的第一行文字的基线对齐。</view>
+<view class="box box-14 line">
+  <view class="box-item">1</view>
+  <view class="box-item item-tall">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item item-tall">4</view>
+</view>
+<view>align-items: stretch（默认值）如果项目未设置高度或设为auto，将占满整个容器的高度。</view>
+<view class="box box-15">
+  <view class="box-item">1</view>
+  <view class="box-item item-tall">2</view>
+  <view class="box-item">3</view>
+  <view class="box-item item-tall">4</view>
+</view>

@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/flex/flex",
+    "pages/promise/promise"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#222",
+    "backgroundColor": "#f8f9fb",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/flex/flex",
+        "text": "flex布局"
+      },
+      {
+        "pagePath": "pages/promise/promise",
+        "text": "promise封装"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
